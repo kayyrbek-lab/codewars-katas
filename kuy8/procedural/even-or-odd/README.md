@@ -20,6 +20,20 @@ This solution is implemented using a **procedural programming style**, focusing 
 
 ---
 
+### ▶ Example Usage
+
+```python
+from src.even_or_odd import even_or_odd
+
+odd_number = 7
+print(even_or_odd(odd_number))  # Output: Odd
+
+even_number = 10
+print(even_or_odd(even_number))  # Output: Even
+```
+
+---
+
 ### ✔ Running the Tests
 
 Tests are written using `pytest`.
@@ -27,4 +41,14 @@ To run them, navigate to the `kyu8/procedural/even-or-odd` directory and execute
 
 ```bash
 pytest
+```
+
+---
+
+### 📦 Installing Dependencies
+
+Install dependencies with:
+
+```bash
+pip install -r requirements.txt
 ```
